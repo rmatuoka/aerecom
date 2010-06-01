@@ -36,13 +36,7 @@
 		</div>
 		
 		<div id="Highlight">
-			<!--<%=image_tag("dest_home.jpg")%> -->
-			<object id="myFlashMovie" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="978" height="440" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0">
-			<param name="movie" value="/Main.swf" />
-			<param name="quality" value="high" />
-			<param name="wmode" value="transparent" /> <embed type="application/x-shockwave-flash" width="978" height="440" src="/Main.swf" name="myFlashMovie" quality="high" wmode="transparent" allowscriptaccess="sameDomain" pluginspage="http://www.macromedia.com/go/getflashplayer" align="middle"></embed>
-			</object>
-
+			<%=image_tag("dest_home.jpg")%>
 		</div>
 		
 		<div id="Toolbar">

@@ -6,10 +6,6 @@
 	<%= stylesheet_link_tag "produtos"%>
 <%end%>
 
-<%content_for :imageheader do%>
-	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
-<%end%>
-
 <span id="PageTitle">Marcas</span>
 
 <!-- BREADCRUMB -->
