@@ -1,0 +1,2 @@
+module LocacaoHelper
+end

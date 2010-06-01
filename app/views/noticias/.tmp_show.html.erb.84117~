@@ -1,0 +1,33 @@
+<%content_for :title do%>
+	Grupo RECOM - Notícias - 
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "noticias"%>
+<%end%>
+
+<%content_for :imageheader do%>
+	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
+<%end%>
+
+<span id="PageTitle"><%=@Noticia.title%></span>
+<span id="PageTitleSeta"><%=image_tag("ico_seta_e.gif")%></span>
+<span id="DateTitleComp"><%=@Noticia.created_at.to_date.strftime("%d/%m/%Y")%></span>
+
+<!-- BREADCRUMB -->
+<div id="BreadCrumb">
+	<%=link_to "recom", noticias_path%> /
+	<%=link_to "notícias", noticias_path%> /
+</div>
+
+<%if @Noticia.image.url.blank?%>
+<div id="BodyRight">
+	<div id="Imagem"><%=image_tag("dest_noticias.jpg")%></div>
+	<div id="Legenda">Legenda</div>
+</div>
+<%end%>
+
+<div id="BodyLeft">
+	<%=@Noticia.body%>
+</div>
+

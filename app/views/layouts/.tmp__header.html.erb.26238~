@@ -1,0 +1,15 @@
+			<div id="Logo"><%=image_tag("logo.gif")%></div>
+			<div id="Menu">
+				<ul>
+					<li>home</li>
+					<li><%=link_to "institucional", institucional_path%></li>
+					<li><%=link_to "contato", sitecontacts_path%></li>
+					<li class="busca">
+						<form id="form" action="/busca" method="get">
+								<input type="text" class="form" value="busca" name="s">
+								<input type="image" src="/images/ico_busca.gif" width="18" height="16" border="0">
+						</form>
+					</li>
+				</ul>
+			</div>
+			

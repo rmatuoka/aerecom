@@ -1,0 +1,36 @@
+<%content_for :title do%>
+	Grupo RECOM - Busca por: <%=@Termo%>
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "busca"%>
+<%end%>
+
+<%content_for :imageheader do%>
+	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
+<%end%>
+
+<div id="BodyLeft">
+	<span id="PageTitle">Resutado da busca por: <%=@Termo%></span>
+	<br><br>
+	
+	<%if !@Produtos.blank?%>
+		<%@Produtos.each do |p|%>
+			<%@Categoria = Category.find(p.category_id)%>
+			<%=link_to p.title, linha_categoria_produto_path(@Categoria.section_id, @Categoria, p), :class => "TituloBusca"%><br>
+			<%=link_to truncate(p.description, 100, "..."), linha_categoria_produto_path(@Categoria.section_id, @Categoria, p), :class => "TextoBusca"%><br><br>
+			<%=%>
+		<%end%>
+	<%end%>
+	
+	<%if !@Noticias.blank?%>
+		<%@Noticias.each do |n|%>
+			<%=link_to n.title, noticia_path(n), :class => "TituloBusca"%><br>
+			<%=link_to n.summary, noticia_path(n), :class => "TextoBusca"%><br><br>
+			<%=%>
+		<%end%>
+	<%end%>
+
+</div>
+
+

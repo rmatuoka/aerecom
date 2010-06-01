@@ -1,0 +1,214 @@
+input, a, textarea, div, span, table, td
+{	
+	font-family:Century Gothic, Arial;
+}
+
+img
+{
+	border:none;
+}
+
+a
+{	
+	text-decoration:none;	
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+p
+{	
+	margin:0px;
+	padding:0px;
+	text-align:justify;
+}
+
+body 
+{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	background-color:;
+}
+
+#Geral
+{
+	text-align:left;
+	margin:auto;
+	width:979px;
+	height:auto;
+	min-height:300px;
+	display:table;
+	background-color:#ffffff;
+	/*border:1px solid red;*/
+}
+/*------------------------------------------------HEADER*/
+
+#Geral #Header #Logo
+{
+	width:457px;
+	height:124px;
+	float:left;	
+	height:auto;
+	/*border:1px solid red;*/
+}
+
+#Geral #Header #Menu
+{
+	float:right;
+	/*border:1px solid yellow;*/
+	width:500px;
+}
+
+	#Geral #Header #Menu ul
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+		#Geral #Header #Menu ul li
+		{
+			display:inline-block;
+			width:157px;
+			margin-left:-2px;
+			background-color:#F6F6F6;
+			height:17px;
+			text-align:right;
+			padding-right:5px;
+			padding-top:107px;
+			font-size:11px;
+			color:#999999;
+			cursor:pointer;
+		}
+		
+		#Geral #Header #Menu ul li a
+		{
+			font-size:11px;
+			color:#999999;
+			font-family:Century Gothic, Arial;
+		}
+		
+		#Geral #Header #Menu ul li:hover
+		{
+			background-color:#e4e4e4;
+		}
+		
+	#Geral #Highlight
+	{
+		clear:both;
+	}
+	
+	#Geral #Toolbar
+	{
+		width:979px;
+		height:32px;
+		background-image:url("../images/bg_flash.jpg");
+		background-repeat:no-repeat;
+		margin-top:-4px;
+	}
+	
+	#Geral #Toolbar #Noticias
+	{
+		margin:4px 0px 0px 25px;
+		width:715px;
+		display:inline-block;
+	}
+	
+		#Geral #Toolbar .Data
+		{
+			font-family:Century Gothic, Verdana, Geneva, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#ffffff;
+			display:inline;
+			width:100px;
+			margin-right:40px;
+		}
+		
+		#Geral #Toolbar .Texto
+		{
+			font-family:Century Gothic, Verdana, Geneva, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#999999;
+			display:inline;
+			width:650px;
+		}
+		
+	#Geral #Toolbar #Busca
+	{
+		float:right;
+		margin-top:6px;
+		margin-right:8px;	
+	}
+	
+	#Geral #Toolbar #Busca .form
+	{
+		background-color:#929ba5;
+		color:#ffffff;
+		border:none;
+		width:187px;
+	}
+	
+	#Geral #ContentBox
+	{
+		margin-top:45px;
+		margin-bottom:47px;
+	}
+		
+		#Geral #ContentBox .Box
+		{
+			width:315px;
+			height:auto;
+			display:inline-block;
+			vertical-align:top;
+		}
+		
+		#Geral #ContentBox .Box p
+		{
+			font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+			color:#999999;
+			font-size:10px;
+			width:300px;
+		}
+		
+		#Geral #ContentBox .Box .form
+		{
+			font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+			background-color:#bdbdb7;
+			color:#ffffff;
+			border:none;
+			width:187px;
+		}
+		
+		#Geral #ContentBox .Botao
+		{
+			text-align:right;
+		}
+	
+	#Footer
+	{
+		background-color:#CCCCCC;
+		height:78px;
+	}
+	
+	#Footer #Copyright
+	{
+		float:left;
+		font-size:10px;
+		color:#ffffff;
+		padding-left:6px;
+	}
+	
+	#Footer #Menu 
+	{
+		float:right;
+		font-size:10px;
+		padding-right:6px;
+		color:#ffffff;
+	}
+	
+		#Footer #Menu a 
+		{
+			color:#ffffff;
+		}
+	

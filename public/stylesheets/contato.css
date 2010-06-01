@@ -1,0 +1,12 @@
+#BoxContato
+{
+	width:450px;
+	margin:auto;
+}
+
+#tableContato td
+{
+	font-family:Century Gothic, Verdana;
+	color:#999999;
+	font-size:11px;
+}

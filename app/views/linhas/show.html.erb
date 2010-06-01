@@ -1,0 +1,31 @@
+<%content_for :title do%>
+	Grupo RECOM - Produtos - <%=@Linha.title%> 
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "produtos"%>
+<%end%>
+
+<span id="PageTitle">Marcas</span>
+
+<!-- BREADCRUMB -->
+<div id="BreadCrumb">
+	<%=link_to "recom", noticias_path%> /
+	<%=link_to "produtos", linha_path(@Linha)%>
+</div>
+
+<div>
+<%@Categorias.each do |categoria|%>
+	<div id="BoxCategoria">
+		<div class="Imagem">
+			<%=link_to image_tag(SERVIDOR + categoria.image.url("thumb")), linha_categoria_path(@Linha, categoria)%>
+		</div>
+		<p><%=link_to categoria.title, linha_categoria_path(@Linha, categoria)%></p>
+	</div>
+<%end%>
+</div>
+
+<%if @Categorias.blank?%>
+<p>Não há categorias cadastradas nesta linha.</p>
+<%end%>
+

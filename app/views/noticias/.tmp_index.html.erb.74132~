@@ -1,0 +1,32 @@
+<%content_for :title do%>
+	Grupo RECOM - Notícias
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "noticias"%>
+<%end%>
+
+<%content_for :imageheader do%>
+	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
+<%end%>
+
+<p>
+	<%=@Conteudo%>
+</p>
+
+<br><br>
+
+<!-- INICIO NOTICIAS -->
+<div id="Box" class="BoxTitulo">Título</div>
+
+<div id="Box" class="BoxData">Data</div>
+
+<%if !@Noticias.blank?%>
+	<%@Noticias.each do |n|%>
+		<div class="Item">
+			<span class="Icone"><%=image_tag("ico_seta_e.gif")%></span>
+			<span class="Titulo"><%=link_to n.title, noticia_path(n)%></span>
+			<span class="Data"><%=n.created_at.to_date.strftime("%d/%m/%Y")%></span>	
+		</div>
+	<%end%>
+<%end%>

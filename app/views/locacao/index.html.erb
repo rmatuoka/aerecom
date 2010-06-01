@@ -1,0 +1,44 @@
+<%content_for :title do%>
+	Grupo RECOM - Serviços -  
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "produtos"%>
+<%end%>
+
+<%content_for :imageheader do%>
+	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
+<%end%>
+
+<span id="PageTitle">Locação de Impressoras</span>
+
+<!-- BREADCRUMB -->
+<div id="BreadCrumb">
+	<%=link_to "recom", home_path%> /
+	<%=link_to "locação de impressoras", locacao_path(@Linha)%>
+</div>
+
+<div>
+	<%if !@Prints.blank?%>
+		<%@Prints.each do |p|%>
+		<div id="BoxProdutos">
+			<div id="Produto">
+				<div class="Imagem"><%=image_tag(SERVIDOR + p.image.url("thumb"))%></div>
+				<div class="tituloProd"><%=p.title%></div>
+				<div class="DescProd">
+					<p style="text-align:right !important;">
+						<%=p.summary%><br><br>
+						<%=link_to image_tag("botoes/vermais.gif"), locacao_item_path(p)%>
+					</p>
+				</div>
+			</div>
+		</div>
+		<%end%>
+	<%end%>
+<div>
+
+
+<%if @Prints.blank?%>
+<p>Não há impressoras para locação.</p>
+<%end%>
+

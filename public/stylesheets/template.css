@@ -1,0 +1,301 @@
+input, a, textarea, div, span, table, td
+{	
+	font-family:Century Gothic, Arial;
+}
+
+img
+{
+	border:none;
+}
+
+a
+{	
+	text-decoration:none;	
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+p
+{	
+	margin:0px;
+	padding:0px;
+	text-align:justify;
+}
+
+body 
+{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	background-color:;
+}
+
+#Geral
+{
+	text-align:left;
+	margin:auto;
+	width:1000px;
+	height:auto;
+	min-height:300px;
+	display:table;
+	background-color:#ffffff;
+	/*border:1px solid red;*/
+}
+/*------------------------------------------------HEADER*/
+#Geral #Header #Logo
+{
+	height:auto;
+		
+}
+
+#Geral #Header #Logo
+{
+	width:203px;
+	height:212px;
+	float:left;	
+}
+
+#Geral #Header #Menu
+{
+	float:right;
+	/*border:1px solid yellow;*/
+	width:792px;
+}
+
+	#Geral #Header #Menu ul
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+		#Geral #Header #Menu ul li
+		{
+			display:inline-block;
+			width:160px;
+			margin-left:-2px;
+			background-color:#F6F6F6;
+			height:17px;
+			text-align:right;
+			padding-right:5px;
+			padding-top:28px;
+			font-size:11px;
+			color:#999999;
+			cursor:pointer;
+		}
+		
+		#Geral #Header #Menu ul li a
+		{
+			font-size:11px;
+			color:#999999;
+			font-family:Century Gothic, Arial;
+		}
+		
+		#Geral #Header #Menu ul li:hover
+		{
+			background-color:#e4e4e4;
+		}
+		
+		#Geral #Header #Menu ul li.busca
+		{
+			width:281px;
+			background-color:#F1F2F4;
+			cursor:default;
+			padding-top:10px;
+			vertical-align:top;
+			height:34px;
+		}
+		
+			#Geral #Header #Menu ul li.busca .form
+			{
+				background-color:#656C85;
+				width:224px;
+				height:15px;
+				font-size:12px;
+				color:#ffffff;
+				border:none;
+				padding:3px;
+			}
+
+
+
+#Geral #Header #Highlight
+{
+	height:166px;
+}
+/*------------------------------------------------MAIN*/
+#Geral #MainContent
+{
+	/*border:1px solid red;*/	
+	clear:both;
+}
+/*------------------------------------------------MENU*/
+	#Geral #MainContent #Menu
+	{
+		width:203px;
+		height:212px;
+		float:left;
+		/*border:1px solid yellow;*/	
+	}
+	
+		#Geral #MainContent #Menu #accordion h3
+		{
+			font-size:12px;
+			font-family:Century Ghotic, Arial;
+		}
+		
+			#Geral #MainContent #Menu #accordion div
+			{
+				padding:0px 0px 0px 25px;
+			}
+			
+			#Geral #MainContent #Menu #accordion div a
+			{
+				font-size:12px;
+				font-family:Century Ghotic, Arial;
+			}
+		
+		#Geral #MainContent #Menu #accordion p, a
+		{
+			font-size:11px;
+			font-family:Century Ghotic, Arial;
+		}
+		
+		#Geral #MainContent #Menu .mnlateral a
+		{
+			font-size:12px;
+			font-family:Century Ghotic, Arial;
+			width:188px;
+			text-align:left;
+			padding-left:14px;
+			margin-top:1px;
+		}
+		
+/*------------------------------------------------CORPO*/		
+	#Geral #MainContent #Body
+	{
+		width:750px;
+		padding:11px 0px 0px 33px;
+		float:right;
+		/*border:1px solid red;*/
+		margin-right:10px;	
+	}
+		
+		#Geral #MainContent #Body p
+		{
+			font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#666666;
+		}
+		
+		#Geral #MainContent #Body #PageTitle
+		{
+			font-family:Century Gothic, Verdana;
+			font-size:18px;
+			color:#666666;
+			padding-right:10px;
+		}
+		
+		#Geral #MainContent #Body #DateTitleComp
+		{
+			font-family:Century Gothic, Verdana;
+			font-size:10px;
+			color:#B3B8C4;
+			padding-left:10px;
+		}
+		
+	#Geral #MainContent #Body #BreadCrumb
+	{
+		font-family:Century Gothic, Verdana;
+		color:#999999;
+		font-size:10px;
+		padding-bottom:8px;
+		border-bottom:1px solid #EDEDF1;
+		margin-bottom:8px;
+	}
+	
+	#Geral #MainContent #Body #BreadCrumb a
+	{
+		font-family:Century Gothic, Verdana;
+		color:#999999;
+		font-size:10px;
+	}
+		
+	#Geral #MainContent #Body #BodyLeft
+	{
+		width:458px;
+	}
+		
+		#Geral #MainContent #Body #BodyLeft p
+		{
+			
+		}
+		
+		#Geral #MainContent #Body #BodyLeft h1
+		{
+			font-family:Century Gothic, Verdana;
+			font-size:18px;
+			color:#666666;
+			padding-right:10px;
+			font-weight:normal;
+			text-transform:capitalize;
+		}
+		
+	#Geral #MainContent #Body #BodyRight
+	{
+		width:272px;
+		float:right;
+	}
+	
+		#Geral #MainContent #Body #BodyRight #Imagem
+		{
+			background-color:#f5f5f7;
+		}
+		
+		#Geral #MainContent #Body #BodyRight #Legenda
+		{
+			background-color:#e6e7eb;
+			padding:9px;
+			font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+			color:#666666;
+			font-size:9px;
+		}
+
+	#Geral #MainContent #Body #Footer
+	{
+		margin-top:40px;
+		padding-top:20px;
+		border-top:1px solid #b3b7c3;
+	}
+	
+		#Geral #MainContent #Body #Footer #Copyright
+		{
+			font-family:Verdana;
+			font-size:10px;
+			color:#999999;
+			float:left;
+		}
+		
+			#Geral #MainContent #Body #Footer #Menu
+			{
+				font-family:Verdana;
+				font-size:10px;
+				color:#999999;
+				float:right;
+				width:300px;
+			}
+			
+			#Geral #MainContent #Body #Footer #Menu a
+			{
+				color:#999999;
+			}
+		
+.form
+{
+	background-color:#CFD1D9;
+	border:none;
+	font-family:Century Gothic, Verdana;
+	font-size:11px;
+	color:#999999;
+}

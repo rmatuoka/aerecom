@@ -1,0 +1,54 @@
+#Box
+{
+	font-size:13px;
+	color:#9E3A46;
+	font-family:Gothic Century, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color:#F2F2F3;
+	display:inline-block;
+	height:23px;
+	padding-left:30px;
+	padding-top:6px;
+	margon-bottom:3px;
+}
+
+.BoxTitulo
+{
+	width:465px;
+}
+
+.BoxData
+{
+	width:200px;
+}
+
+.Item
+{
+	height:29px;
+	border-top:1px solid #F2F2F3;
+}
+
+.Icone
+{
+	
+}
+
+.Titulo, .Data
+{
+	font-family:Verdana;
+	color:#999999;
+	font-size:12px;
+	display:inline-block;
+}
+
+.Titulo a
+{
+	font-family:Verdana;
+	color:#999999;
+	font-size:12px;
+}
+
+.Titulo
+{
+	width:513px;
+}
+
