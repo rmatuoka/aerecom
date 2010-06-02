@@ -12,7 +12,6 @@
 						<%=link_to "Locação de Impressoras", locacao_path%><br>
 						<%=link_to "Assistência Técnica", assistencia_path%><br>
 						<%=link_to "Venda Direta dos Distribuidores", vendadireta_path%>
-						<%=link_to "Impressão sob Demanda", impressao_path%>
 					</div>
 				</div>
 				<div class="mnlateral"><%=link_to "Promoções", promocoes_path%></div>

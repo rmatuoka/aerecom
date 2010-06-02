@@ -34,7 +34,6 @@
 		<div id="MainContent">
 			<div id="Menu">
 				<%= render :file => "layouts/_menu.html.erb" %>
-				<center><%=image_tag("logo_xerox.jpg", :style => "margin-top:20px;") %></center>
 			</div>
 			<div id="Body">
 				<%=yield%>
