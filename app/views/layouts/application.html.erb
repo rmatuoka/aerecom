@@ -22,6 +22,14 @@
 		
 		$("a", ".mnlateral").button();
 	});
+$(document).ready(function(){
+	
+	$("#Header #Menu li").click(function(){
+    	window.location=$(this).find("a").attr("href");return false;
+	});
+}); //close doc ready
+
+
 </script>
 </head>
 <body>

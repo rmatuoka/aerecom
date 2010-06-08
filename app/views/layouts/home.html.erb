@@ -20,6 +20,31 @@
 		}); 	 
 	});
 	// -->
+	
+$j(document).ready(function(){	
+	$j("#Header #Menu li").click(function(){
+    	window.location=$j(this).find("a").attr("href");return false;
+	});
+}); //close doc ready
+
+function Clear(type)
+{
+	if(type == "onblur")
+	{
+		if (document.getElementById("newsletter_email").value == "")
+		{
+			document.getElementById("newsletter_email").value = "Digite o seu e-mail";
+		}
+	}
+	else
+	{
+		if (document.getElementById("newsletter_email").value == "Digite o seu e-mail")
+		{
+			document.getElementById("newsletter_email").value = "";
+		}	
+	}
+	
+}
 	</SCRIPT>
 </head>
 <body>
@@ -88,7 +113,7 @@
 					<p class="Botao">
 						<% remote_form_for Newsletter.new, :update => "update_newsletter", :loading => "$('loading-newsletter').show();", :loaded => "$('loading-newsletter').hide();" do |f| %>
 							<label>
-								<%=f.text_field :email, :value => "Digite o seu e-mail",  :class => "form"%> 
+								<%=f.text_field :email, :value => "Digite o seu e-mail",  :class => "form", :onfocus => "Clear('onfocus')", :onblur => "Clear('onblur')"%> 
 							</label>
 							<%= image_submit_tag "botoes/enviar.gif", :style => "vertical-align:middle;" %>
 							

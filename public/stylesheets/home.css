@@ -189,13 +189,14 @@ body
 	{
 		background-color:#CCCCCC;
 		height:78px;
+		padding:12px;
 	}
 	
 	#Footer #Copyright
 	{
 		float:left;
 		font-size:10px;
-		color:#ffffff;
+		color:#333333;
 		padding-left:6px;
 	}
 	
@@ -204,11 +205,11 @@ body
 		float:right;
 		font-size:10px;
 		padding-right:6px;
-		color:#ffffff;
+		color:#333333;
 	}
 	
 		#Footer #Menu a 
 		{
-			color:#ffffff;
+			color:#333333;
 		}
 	
