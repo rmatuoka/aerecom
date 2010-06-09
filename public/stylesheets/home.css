@@ -48,7 +48,7 @@ body
 #Geral #Header #Logo
 {
 	width:457px;
-	height:124px;
+	height:94px;
 	float:left;	
 	height:auto;
 	/*border:1px solid red;*/
@@ -76,7 +76,7 @@ body
 			height:17px;
 			text-align:right;
 			padding-right:5px;
-			padding-top:107px;
+			padding-top:77px;
 			font-size:11px;
 			color:#999999;
 			cursor:pointer;

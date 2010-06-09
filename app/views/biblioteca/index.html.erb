@@ -1,0 +1,29 @@
+<%content_for :title do%>
+	Grupo RECOM - <%=@Titulo%>
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "institucional"%>
+<%end%>
+
+<%content_for :imageheader do%>
+	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
+<%end%>
+
+<%if !@Legenda.blank?%>
+<div id="BodyRight">
+	<div id="Imagem"><%=image_tag(SERVIDOR + @Imagem)%></div>
+	<div id="Legenda">Legenda</div>
+</div>
+<%end%>
+
+<div id="BodyLeft">
+	<span id="PageTitle"><%=@Titulo%></span>
+	<br><br>
+<p>
+	<%=@Conteudo%>
+</p>
+
+</div>
+
+

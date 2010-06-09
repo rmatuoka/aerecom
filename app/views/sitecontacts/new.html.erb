@@ -4,6 +4,31 @@
 
 <%content_for :head do%>
 	<%= stylesheet_link_tag "contato"%>
+	<script language="JavaScript">
+		$(document).ready(function() {
+			$("#sitecontact_file").hide();
+			
+			$("#sitecontact_motivo_fale_conosco").click(function() {
+				$("#sitecontact_file").hide();
+			});
+			
+			$("#sitecontact_motivo_compra_de_carcaça").click(function() {
+				$("#mensagem").html("Compramos cartuchos vazios de tinta e toner.");
+				$("#sitecontact_file").hide();
+			});
+			
+			$("#sitecontact_motivo_envio_de_curriculum").click(function() {
+				$("#mensagem").html("Envie seu Curriculum.");
+				$("#sitecontact_file").show();
+			});
+			
+			$("#sitecontact_motivo_impressão_sob_demanda").click(function() {
+				$("#mensagem").html("Envie seu arquivos para fazermos um orçamento sem compromisso.");
+				$("#sitecontact_file").show();
+			});
+
+		});
+	</script>
 <%end%>
 
 <%content_for :imageheader do%>
@@ -21,34 +46,75 @@
 <div id="BoxContato">
 	<%=flash[:msg]%>
 	
-	<%form_for(@Contato) do |f| %>
-	<table width="362" cellpadding="0" cellspacing="0" border="0" id="tableContato">
+	<%form_for(@Contato, :html => { :multipart => :true }) do |f| %>
+	<table width="400" cellpadding="0" cellspacing="0" border="0" id="tableContato">
 	<label>
 	<tr>
-	<td width="70" align="right">Nome</td>
+	<td width="120" align="right">Nome</td>
 	<td align="right"><%=f.text_field :name, :class => "form", :style => "width:270px;"%></td>
 	</tr>
 	</label>
 	<tr>
 		<td height="5"></td>
-	<tr>
+	</tr>
 	<label>
+	<tr>
+	<td align="right">Telefone</td>
+	<td align="right"><%=f.text_field :phone, :class => "form", :style => "width:270px;"%></td>
+	</tr>
+	</label>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<label>
+	<tr>
 	<td align="right">E-mail</td>
 	<td align="right"><%=f.text_field :email, :class => "form", :style => "width:270px;"%></td>
 	</tr>
 	</label>
 	<tr>
 		<td height="5"></td>
-	<tr>
+	</tr>
 	<label>
 	<tr>
 	<td align="right" valign="top">Mensagem</td>
-	<td align="right"><%=f.text_area :message, :class => "form", :style => "width:270px; height:270px;"%></td>
+	<td align="right"><%=f.text_area :message, :class => "form", :style => "width:270px; height:150px;"%></td>
+	</tr>
+	</label>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<label>
+	<tr>
+	<td align="right" valign="top">Motivo do Contato</td>
+	<td align="left" style="padding-left:5px;">
+		<%=f.radio_button :motivo, "Fale Conosco" %> Fale Conosco <br>
+		<%=f.radio_button :motivo, "Compra de Carcaça" %> Compra de Carcaça <br>
+		<%=f.radio_button :motivo, "Envio de Curriculum" %> Envio de Currículum <br>
+		<%=f.radio_button :motivo, "Impressão sob Demanda" %> Impressão sob Demanda <br>
+	</td>
+	</tr>
+	</label>
+	<tr>
+		<td height="10"></td>
+	</tr>
+	<label>
+	<tr>
+		<td></td>
+		<td style="padding-left:5px;"><i><span id="mensagem"></span></i></td>
+	</tr>
+	<tr>
+	<td align="right" valign="top"></td>
+	<td align="left" style="padding-left:5px;">
+		<%=f.file_field :file, :style => "width:270px;" %><br>
+	<br><br>
+	</td>
 	</tr>
 	</label>
 	<tr>
 		<td height="5"></td>
 	<tr>
+		
 	<tr>
 	<td colspan="2" align="right"><%=image_submit_tag "botoes/enviar.png", :alt => "Enviar" %></td>
 	</tr>

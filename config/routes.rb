@@ -49,6 +49,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :newsletters
   map.resources :mapadosite, :singular => :mapadosite_item
   map.resources :impressao, :singular => :impressao_item
+  map.resources :biblioteca, :singular => :biblioteca_item
   
   map.resources :noticias do |noticias|
     noticias.resources :imagens
