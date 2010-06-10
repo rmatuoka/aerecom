@@ -49,7 +49,7 @@
     
     <destaque>
         <linha>produtos</linha>
-		<categoria>Fitas Impressoras</categoria>
+		<categoria>Fitas</categoria>
 		<imagem>images/fita.png</imagem>
 		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
 		<link>http://www.uol.com.br</link>
@@ -57,7 +57,7 @@
     
     <destaque>
         <linha>produtos</linha>
-		<categoria>Bastão de Cera</categoria>
+		<categoria>Bastões</categoria>
 		<imagem>images/bastao.png</imagem>
 		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
 		<link>http://www.uol.com.br</link>
@@ -65,7 +65,7 @@
     
     <destaque>
         <linha>produtos</linha>
-		<categoria>Ribbon</categoria>
+		<categoria>Ribbons</categoria>
 		<imagem>images/ribbon.png</imagem>
 		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
 		<link>http://www.uol.com.br</link>
