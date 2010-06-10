@@ -4,7 +4,7 @@
 		<categoria>Locação</categoria>
 		<imagem>images/imagem1.png</imagem>
 		<texto>Os clientes do Grupo Recom contam com profissionais capacitados para adequar o parque de impressão de sua empresa às suas reais necessidades. Isso ocorre devido o amplo conhecimento dos produtos, equipamentos e ótimo relacionamento com fornecedores. Unindo esforços, conseguimos atingir uma solução de impressão eficiente, simples e adequada às suas necessidades, com menor custo. Desta maneira o cliente deixa de se ocupar com compras, manutenção, estoque de produtos, atualização dos equipamentos, concentrando assim seus esforços na inteligência de seus negócios.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>locacao</link>
 	</destaque>
     
     <destaque>
@@ -12,7 +12,7 @@
 		<categoria>Assistência</categoria>
 		<imagem>images/cruz.png</imagem>
 		<texto>O Grupo Recom também possui departamento de Assistência Técnica, o qual é especializado e equipado para elaborar orçamentos, manutenção de impressora a laser, jato de tinta, matricial, térmica, copiadora e plotter de diversas marcas como HP, Lexmark, Canon, Xerox, Okidata, Epson, Brother, Kyocera, Zebra e Argox. Toda essa estrutura nos permite oferecer um atendimento profissional com qualidade e agilidade, respeitando prazos de entrega e necessidades específicas com preço competitivo.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>assistencia</link>
 	</destaque>
 	
 	<destaque>
@@ -20,7 +20,7 @@
 		<categoria>Venda</categoria>
 		<imagem>images/venda.png</imagem>
 		<texto>O Grupo Recom têm um ótimo relacionamento com o mercado, por isso fez parcerias com diversos distribuidores de suprimentos, equipamentos e todos os produtos relacionados à informática, para que possa oferecer aos clientes maior conforto, segurança e baixo custo, através do faturamento direto do distribuidor para o cliente. Consulte-nos agora mesmo e peça um orçamento sem compromisso, lhe atenderemos com a agilidade e eficência de sempre!</texto>
-		<link>http://www.uol.com.br</link>
+		<link>vendadireta</link>
 	</destaque>
 	
 	<destaque>
@@ -28,7 +28,7 @@
 		<categoria>Impressão</categoria>
 		<imagem>images/impressao.png</imagem>
 		<texto>Além de todos os serviços que o Grupo Recom oferece aos clientes como locação de impressoras, assistência técnica e a venda direta dos distribuidores, também oferecemos o serviço de Impressão sob Demanda. Você nos envia o arquivo a ser impressa e nós imprimimos com a qualidade Recom. Envie agora o seu arquivo e solicite um orçamento sem compromisso. Um serviço com a qualidade e com a eficiência Recom.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>impressao</link>
 	</destaque>
     
     <destaque>
@@ -36,7 +36,7 @@
 		<categoria>Toners</categoria>
 		<imagem>images/toners.png</imagem>
 		<texto>É hoje a tecnologia mais comum em escritórios. Essas impressoras têm o melhor custo-benefício em relação à impressora monocromática para todos os volumes e colorida para grandes volumes. Essa tecnologia garantiu uma enorme fatia do mercado corporativo pelo seu baixo-custo de impressão, alta velocidade, baixa manutenção e qualidade nos documentos impressos.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>linhas/12</link>
 	</destaque>
     
     <destaque>
@@ -44,7 +44,7 @@
 		<categoria>InkJet</categoria>
 		<imagem>images/inkjet.png</imagem>
 		<texto>É a tecnologia mais comum de impressão da atualidade, sendo ideal para isso doméstico, home-office e pequenos escritórios. A qualidade de impressão cada vez melhor e a maior velocidade contribuem para o bom desempenho do equipamento. É ideal para pequenos volumes de impressão colorido e monocromático, porém seu custo de impressão deixa a desejar.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>linhas/13</link>
 	</destaque>
     
     <destaque>
@@ -52,7 +52,7 @@
 		<categoria>Fitas</categoria>
 		<imagem>images/fita.png</imagem>
 		<texto>As impressoras matriciais têm o menor custo disponível do mercado. Própria para impressão de notas ficais e documentos que não necessitam de muita qualidade e velocidade de impressão.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>linhas/14</link>
 	</destaque>
     
     <destaque>
@@ -60,7 +60,7 @@
 		<categoria>Bastões</categoria>
 		<imagem>images/bastao.png</imagem>
 		<texto>É a tecnologia de impressão comercializada somente pela Xerox. Atualmente ela se destaca pelo seu ótimo custo – benefício na impressão de documentos coloridos para médios volumes. Sua tecnologia garante a produção de documentos com ótima precisão, alto detalhamento e excelente definição de imagem.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>linhas/15</link>
 	</destaque>
     
     <destaque>
@@ -68,7 +68,7 @@
 		<categoria>Ribbons</categoria>
 		<imagem>images/ribbon.png</imagem>
 		<texto>É a melhor tecnologia para impressão e códigos de barra. Ela utiliza uma cera em um filme plástico onde, após passar por aquecimento, a mesma é transferida para a etiqueta. Essa impressora é recomendada para impressão de etiquetas persona-lizadas e seqüenciais e sua impressão não conter falhas durante o processo.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>linhas/16</link>
 	</destaque>
     
     <destaque>
@@ -76,6 +76,6 @@
 		<categoria>Etiquetas</categoria>
 		<imagem>images/etiquetas.png</imagem>
 		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
-		<link>http://www.uol.com.br</link>
+		<link>linhas/17</link>
 	</destaque>
 </destaques>
