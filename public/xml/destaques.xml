@@ -35,7 +35,7 @@
         <linha>produtos</linha>
 		<categoria>Toners</categoria>
 		<imagem>images/toners.png</imagem>
-		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<texto>É hoje a tecnologia mais comum em escritórios. Essas impressoras têm o melhor custo-benefício em relação à impressora monocromática para todos os volumes e colorida para grandes volumes. Essa tecnologia garantiu uma enorme fatia do mercado corporativo pelo seu baixo-custo de impressão, alta velocidade, baixa manutenção e qualidade nos documentos impressos.</texto>
 		<link>http://www.uol.com.br</link>
 	</destaque>
     
@@ -43,7 +43,7 @@
         <linha>produtos</linha>
 		<categoria>InkJet</categoria>
 		<imagem>images/inkjet.png</imagem>
-		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<texto>É a tecnologia mais comum de impressão da atualidade, sendo ideal para isso doméstico, home-office e pequenos escritórios. A qualidade de impressão cada vez melhor e a maior velocidade contribuem para o bom desempenho do equipamento. É ideal para pequenos volumes de impressão colorido e monocromático, porém seu custo de impressão deixa a desejar.</texto>
 		<link>http://www.uol.com.br</link>
 	</destaque>
     
@@ -51,7 +51,7 @@
         <linha>produtos</linha>
 		<categoria>Fitas</categoria>
 		<imagem>images/fita.png</imagem>
-		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<texto>As impressoras matriciais têm o menor custo disponível do mercado. Própria para impressão de notas ficais e documentos que não necessitam de muita qualidade e velocidade de impressão.</texto>
 		<link>http://www.uol.com.br</link>
 	</destaque>
     
@@ -59,7 +59,7 @@
         <linha>produtos</linha>
 		<categoria>Bastões</categoria>
 		<imagem>images/bastao.png</imagem>
-		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<texto>É a tecnologia de impressão comercializada somente pela Xerox. Atualmente ela se destaca pelo seu ótimo custo – benefício na impressão de documentos coloridos para médios volumes. Sua tecnologia garante a produção de documentos com ótima precisão, alto detalhamento e excelente definição de imagem.</texto>
 		<link>http://www.uol.com.br</link>
 	</destaque>
     
@@ -67,7 +67,7 @@
         <linha>produtos</linha>
 		<categoria>Ribbons</categoria>
 		<imagem>images/ribbon.png</imagem>
-		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<texto>É a melhor tecnologia para impressão e códigos de barra. Ela utiliza uma cera em um filme plástico onde, após passar por aquecimento, a mesma é transferida para a etiqueta. Essa impressora é recomendada para impressão de etiquetas persona-lizadas e seqüenciais e sua impressão não conter falhas durante o processo.</texto>
 		<link>http://www.uol.com.br</link>
 	</destaque>
     
