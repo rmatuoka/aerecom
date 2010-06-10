@@ -1,0 +1,81 @@
+<destaques>
+	<destaque>
+        <linha>servicos</linha>
+		<categoria>Locação</categoria>
+		<imagem>images/imagem1.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>servicos</linha>
+		<categoria>Assistência</categoria>
+		<imagem>images/cruz.png</imagem>
+		<texto>O Grupo Recom também possui departamento de Assistência Técnica, o qual é especializado e equipado para elaborar orçamentos, manutenção de impressora a laser, jato de tinta, matricial, térmica, copiadora e plotter de diversas marcas como HP, Lexmark, Canon, Xerox, Okidata, Epson, Brother, Kyocera, Zebra e Argox. Toda essa estrutura nos permite oferecer um atendimento profissional com qualidade e agilidade, respeitando prazos de entrega e necessidades específicas com preço competitivo.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+	
+	<destaque>
+        <linha>servicos</linha>
+		<categoria>Venda</categoria>
+		<imagem>images/venda.png</imagem>
+		<texto>O Grupo Recom têm um ótimo relacionamento com o mercado, por isso fez parcerias com diversos distribuidores de suprimentos, equipamentos e todos os produtos relacionados à informática, para que possa oferecer aos clientes maior conforto, segurança e baixo custo, através do faturamento direto do distribuidor para o cliente.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+	
+	<destaque>
+        <linha>servicos</linha>
+		<categoria>Impressão</categoria>
+		<imagem>images/impressao.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>produtos</linha>
+		<categoria>Toners</categoria>
+		<imagem>images/toners.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>produtos</linha>
+		<categoria>InkJet</categoria>
+		<imagem>images/inkjet.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>produtos</linha>
+		<categoria>Fitas Impressoras</categoria>
+		<imagem>images/fita.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>produtos</linha>
+		<categoria>Bastão de Cera</categoria>
+		<imagem>images/bastao.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>produtos</linha>
+		<categoria>Ribbon</categoria>
+		<imagem>images/ribbon.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+    
+    <destaque>
+        <linha>produtos</linha>
+		<categoria>Etiquetas</categoria>
+		<imagem>images/etiquetas.png</imagem>
+		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<link>http://www.uol.com.br</link>
+	</destaque>
+</destaques>
