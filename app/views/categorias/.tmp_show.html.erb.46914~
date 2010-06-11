@@ -23,14 +23,13 @@
 	<%if !@Produtos.blank?%>
 		<%@Produtos.each do |p|%>
 		<div id="BoxProdutos" class="<%=p.tipo%>">
-			<div class="Titulo"><%=p.tipo%></div>
+			<span class="Titulo"><%=p.tipo%></span>
 			<div id="Produto">
 				<div class="Imagem"><%=image_tag(SERVIDOR + p.image.url("thumb"))%></div>
 				<div class="tituloProd"><%=p.title%></div>
 				<div class="DescProd">
 					<p style="text-align:right !important;">
 						<%=truncate(p.description, 100, "...")%><br><br>
-						<br>
 						<%=link_to image_tag("botoes/vermais.gif"), linha_categoria_produto_path(@Linha,@Categoria, p)%>
 					</p>
 				</div>
@@ -38,9 +37,9 @@
 		</div>
 		<%end%>
 	<%end%>
-</div>
+<div>
 	<div id="Paginacao">
-		<center><%=will_paginate @Produtos%></center>
+				
 	</div>
 
 

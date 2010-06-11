@@ -114,6 +114,12 @@
 	float:right;
 	brder:1px solid green;
 }
+	.Compatível .Titulo
+	{
+		float:right;
+		brder:1px solid green;
+		margin-bottom:30px;
+	}
 
 #Imagem
 {
