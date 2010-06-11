@@ -39,7 +39,7 @@
 	<%end%>
 <div>
 	<div id="Paginacao">
-		<center><%=will_paginate @Produtos %></center>		
+		<center><%= will_paginate @Produtos %></center>		
 	</div>
 
 
