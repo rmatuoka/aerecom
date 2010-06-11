@@ -84,7 +84,7 @@ function Clear(type)
 					<%@Noticias.each do |n|%>
 						<div>
 							<span class="Data"><%=n.created_at.to_date.strftime("%d/%m/%Y")%></span>
-							<%=link_to truncate(n.title, 100, ""), noticia_path(n), :class => "Texto"%>
+							<span class="Texto"><%=truncate(n.summary, 100, "")%></span>
 						</div>
 					<%end%>
 				<%end%>

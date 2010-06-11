@@ -111,7 +111,8 @@
 
 .Compatível
 {
-	
+	float:right;
+	brder:1px solid green;
 }
 
 #Imagem
@@ -148,4 +149,18 @@
 		background-color:#C4C7D0;
 		display:inline-block;
 		padding-left:3px;
+	}
+
+	#Paginacao a
+	{
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#666666;
+	}
+	
+	#Paginacao span
+	{
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#333333;
 	}

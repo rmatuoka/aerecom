@@ -4,7 +4,9 @@ class CategoriasController < ApplicationController
   def show
     @Linha = Section.find(params[:linha_id])
     @Categoria = @Linha.categories.find(params[:id])
-    @Produtos = @Categoria.products.all(:conditions => ['published = 1'])
+    #@Produtos = @Categoria.products.all(:conditions => ['published = 1'])
+    
+    @Produtos = @Categoria.products.paginate :page => params[:page], :conditions => ['published = 1'], :per_page => 8
   end
   
   def load_dynamic

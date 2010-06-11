@@ -5,6 +5,8 @@ class ProdutosController < ApplicationController
     @Linha = Section.find(params[:linha_id])
     @Categoria = @Linha.categories.find(params[:categoria_id])
     @Produto = @Categoria.products.find(params[:id])
+    
+    #@posts = Post.paginate :all, :page => params[:page], :per_page => 10
   end
   
   def load_dynamic

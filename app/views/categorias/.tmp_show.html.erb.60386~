@@ -38,9 +38,6 @@
 		<%end%>
 	<%end%>
 <div>
-	<div id="Paginacao">
-		<center><%= will_paginate @Produtos %></center>		
-	</div>
 
 
 <%if @Produtos.blank?%>
