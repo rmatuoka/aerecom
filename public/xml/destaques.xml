@@ -35,7 +35,7 @@
         <linha>produtos</linha>
 		<categoria>Toners</categoria>
 		<imagem>images/toners.png</imagem>
-		<texto>É hoje a tecnologia mais comum em escritórios. Essas impressoras têm o melhor custo-benefício em relação à impressora monocromática para todos os volumes e colorida para grandes volumes. Essa tecnologia garantiu uma enorme fatia do mercado corporativo pelo seu baixo-custo de impressão, alta velocidade, baixa manutenção e qualidade nos documentos impressos.</texto>
+		<texto>É hoje a tecnologia mais comum em escritórios. Essas impressoras têm melhor custo-benefício tanto em relação às impressoras monocromáticas para todos os volumes quanto às coloridas para grandes volumes. A tecnologia desse modelo conquistou uma enorme fatia do mercado corporativo devido ao seu baixo custo de impressão, alta velocidade, baixa manutenção e qualidade nas impressões de documentos. Optar pelos toners é garantia de uma ótima escolha e isso qualquer profissional do ramo poderá reafirmar. O desempenho dessas impressoras é indiscutivelmente superior e os escritórios que ainda não possuem este tipo de equipamento estão em processo de aquisição, já que necessitam de um grande volume de impressões diárias e, é claro, com a maior economia possível.</texto>
 		<link>linhas/12</link>
 	</destaque>
     
@@ -43,7 +43,7 @@
         <linha>produtos</linha>
 		<categoria>InkJet</categoria>
 		<imagem>images/inkjet.png</imagem>
-		<texto>É a tecnologia mais comum de impressão da atualidade, sendo ideal para isso doméstico, home-office e pequenos escritórios. A qualidade de impressão cada vez melhor e a maior velocidade contribuem para o bom desempenho do equipamento. É ideal para pequenos volumes de impressão colorido e monocromático, porém seu custo de impressão deixa a desejar.</texto>
+		<texto>Está é a tecnologia mais comum de impressão da atualidade, sendo ideal para uso doméstico, home-office e pequenos escritórios. Apesar de seu custo de impressão deixar a desejar um pouco, sua qualidade é incontestável. O desempenho desse equipamento tem melhorado cada vez mais e os reflexos disso ficam claros na qualidade de velocidade das impressões, sejam elas coloridas ou monocromáticas. Essa tecnologia é indicada para pequenos volumes e sua versatilidade é uma de suas grandes vantagens. Ela marca diversos tipos de superfícies, mesmo as irregulares, o que permite a essa tecnologia se adaptar de acordo com o mercado. Esse sistema é principalmente indicado para impressões de fotografias, mas se mostra muito eficiente também quando é preciso imprimir em um espectro de superfícies de papel mais amplo, inclusive em transparências de retroprojetor ou em materiais de transferência de imagens para camisetas e canecas, por exemplo. </texto>
 		<link>linhas/13</link>
 	</destaque>
     
@@ -51,7 +51,7 @@
         <linha>produtos</linha>
 		<categoria>Fitas</categoria>
 		<imagem>images/fita.png</imagem>
-		<texto>As impressoras matriciais têm o menor custo disponível do mercado. Própria para impressão de notas ficais e documentos que não necessitam de muita qualidade e velocidade de impressão.</texto>
+		<texto>As impressoras matriciais têm o menor custo disponível no mercado. Elas são indicadas para impressão de notas fiscais e documentos que não necessitam muita qualidade e velocidade de impressão.  A qualidade das impressões depende, basicamente, do número de agulhas na cabeça de impressão, da proximidade entre essas agulhas e da precisão do avanço do motor de acionamento da cabeça de impressão. A maior vantagem a ser apontada é o baixo custo deste tipo de impressão. No caso de impressões coloridas também fica mais difícil atingir alta qualidade com este tipo de impressão, pois as mesmas agulhas entram em contato sucessivamente com as cores de tinta, o que resulta na mistura das cores e, consequentemente, na alteração dos tons.</texto>
 		<link>linhas/14</link>
 	</destaque>
     
@@ -59,7 +59,7 @@
         <linha>produtos</linha>
 		<categoria>Bastões</categoria>
 		<imagem>images/bastao.png</imagem>
-		<texto>É a tecnologia de impressão comercializada somente pela Xerox. Atualmente ela se destaca pelo seu ótimo custo – benefício na impressão de documentos coloridos para médios volumes. Sua tecnologia garante a produção de documentos com ótima precisão, alto detalhamento e excelente definição de imagem.</texto>
+		<texto>É a tecnologia de impressão comercializada somente pela Xerox. Atualmente ela se destaca pelo seu ótimo custo – benefício na impressão de documentos coloridos para médios volumes. Sua manutenção é bem simples e causa menos impacto ao meio ambiente. Sua tecnologia garante a produção de documentos com ótima precisão, alto detalhamento e excelente definição de imagem com velocidade rápida e menos desperdício. Além disso, essa tecnologia costuma ser praticamente livre de atolamento durante a impressão. As vantagens se mostram presentes até no manuseio, já que os bastões não mancham nas mãos, não vazam e não são tóxicos.</texto>
 		<link>linhas/15</link>
 	</destaque>
     
@@ -67,7 +67,7 @@
         <linha>produtos</linha>
 		<categoria>Ribbons</categoria>
 		<imagem>images/ribbon.png</imagem>
-		<texto>É a melhor tecnologia para impressão e códigos de barra. Ela utiliza uma cera em um filme plástico onde, após passar por aquecimento, a mesma é transferida para a etiqueta. Essa impressora é recomendada para impressão de etiquetas persona-lizadas e seqüenciais e sua impressão não conter falhas durante o processo.</texto>
+		<texto>É a melhor tecnologia para impressão e código de barra. Seu sistema de funcionamento é bem simples: o filme plástico possui uma cera que, quando aquecida, é transferida para a etiqueta. Esse sistema é recomendado para impressão de etiquetas personalizadas e sequenciais, já que não possui falhas durante o processo. Ele é indicado para impressões direcionadas a produtos que não estejam sujeitos a atrito ou contato com produtos químicos, como por exemplo, caixa de sapato e etiquetas de roupa. Também é muito versátil já que há a possibilidade de se encontrar ribbons de diferentes larguras e comprimentos que se adéquam aos modelos de cada impressora. Uma vantagem importante dessa tecnologia é o fato de possuir baixo custo.</texto>
 		<link>linhas/16</link>
 	</destaque>
     
