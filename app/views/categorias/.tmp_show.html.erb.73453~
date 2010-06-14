@@ -1,0 +1,51 @@
+<%content_for :title do%>
+	Grupo RECOM - Produtos - <%=@Linha.title%> - <%=@Categoria.title%> 
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "produtos"%>
+<%end%>
+
+<%content_for :imageheader do%>
+	<div id="Highlight"><%=image_tag(SERVIDOR + @Header.image.url())%></div>
+<%end%>
+
+<span id="PageTitle">Produtos</span>
+
+<!-- BREADCRUMB -->
+<div id="BreadCrumb">
+	<%=link_to "recom", home_path%> /
+	<%=link_to @Linha.title, linha_path(@Linha)%> /
+	<%=link_to @Categoria.title, linha_categoria_path(@Linha, @Categoria)%>
+</div>
+
+<div style="display:table; width:100%;">
+	<%if !@Produtos.blank?%>
+		<%@Produtos.each do |p|%>
+		<div id="BoxProdutos" class="<%=p.tipo%>">
+			<div class="Titulo"><%=p.tipo%></div>
+			<div id="Produto">
+				<div class="Imagem"><%=image_tag(SERVIDOR + p.image.url("thumb"))%></div>
+				<div class="tituloProd"><%=p.title%></div>
+				<div class="DescProd">
+					<p style="text-align:right !important;">
+						<%=truncate(p.description, 100, "...")%><br><br>
+						<br>
+						<%=link_to image_tag("botoes/vermais.gif"), linha_categoria_produto_path(@Linha,@Categoria, p)%>
+					</p>
+				</div>
+			</div>
+		</div>
+		<%end%>
+	<%end%>
+</div>
+	<div id="Paginacao">
+		<center><%=will_paginate @Produtos%></center>
+	</div>
+
+
+<%if @Produtos.blank?%>
+<p>Não há produtos cadastradas nesta linha.</p>
+<%end%>
+
+
