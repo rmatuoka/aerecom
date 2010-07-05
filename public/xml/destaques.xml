@@ -3,7 +3,7 @@
         <linha>servicos</linha>
 		<categoria>Outsourcing</categoria>
 		<imagem>images/imagem1.png</imagem>
-		<texto>Os clientes do Grupo Recom contam com profissionais capacitados para adequar o parque de impressão de sua empresa às suas reais necessidades. Isso ocorre devido o amplo conhecimento dos produtos, equipamentos e ótimo relacionamento com fornecedores. Unindo esforços, conseguimos atingir uma solução de impressão eficiente, simples e adequada às suas necessidades, com menor custo. Desta maneira o cliente deixa de se ocupar com compras, manutenção, estoque de produtos, atualização dos equipamentos, concentrando assim seus esforços na inteligência de seus negócios.</texto>
+		<texto>Os clientes do Grupo Recom contam com profissionais capacitados para adequar o parque de impressão de sua empresa às suas reais necessidades. Unindo esforços, conseguimos atingir uma solução de impressão eficiente, simples e adequada às suas necessidades, com menor custo. Desta maneira o cliente deixa de se ocupar com compras, manutenção, estoque de produtos, atualização dos equipamentos, concentrando assim seus esforços na inteligência de seus negócios.</texto>
 		<link>locacao</link>
 	</destaque>
     
@@ -11,7 +11,7 @@
         <linha>servicos</linha>
 		<categoria>Assistência</categoria>
 		<imagem>images/cruz.png</imagem>
-		<texto>O Grupo Recom também possui departamento de Assistência Técnica, o qual é especializado e equipado para elaborar orçamentos, manutenção de impressora a laser, jato de tinta, matricial, térmica, copiadora e plotter de diversas marcas como HP, Lexmark, Canon, Xerox, Okidata, Epson, Brother, Kyocera, Zebra e Argox. Toda essa estrutura nos permite oferecer um atendimento profissional com qualidade e agilidade, respeitando prazos de entrega e necessidades específicas com preço competitivo.</texto>
+		<texto>O Grupo Recom também possui departamento de Assistência Técnica, o qual é especializado e equipado para elaborar orçamentos, manutenção de impressora a laser, jato de tinta, matricial, térmica, copiadora e plotter. Toda essa estrutura nos permite oferecer um atendimento profissional com qualidade e agilidade, respeitando prazos de entrega e necessidades específicas com preço competitivo.</texto>
 		<link>assistencia</link>
 	</destaque>
 	
@@ -19,7 +19,7 @@
         <linha>servicos</linha>
 		<categoria>Venda</categoria>
 		<imagem>images/venda.png</imagem>
-		<texto>O Grupo Recom têm um ótimo relacionamento com o mercado, por isso fez parcerias com diversos distribuidores de suprimentos, equipamentos e todos os produtos relacionados à informática, para que possa oferecer aos clientes maior conforto, segurança e baixo custo, através do faturamento direto do distribuidor para o cliente. Consulte-nos agora mesmo e peça um orçamento sem compromisso, lhe atenderemos com a agilidade e eficência de sempre!</texto>
+		<texto>O Grupo Recom têm um ótimo relacionamento com o mercado, por isso fez parcerias com diversos distribuidores de suprimentos, equipamentos e todos os produtos relacionados à informática, para que possa oferecer aos clientes maior conforto, segurança e baixo custo, através do faturamento direto do distribuidor para o cliente.</texto>
 		<link>vendadireta</link>
 	</destaque>
     
@@ -27,7 +27,7 @@
         <linha>servicos</linha>
 		<categoria>Impressora 3D</categoria>
 		<imagem>images/imagem1.png</imagem>
-		<texto>Os clientes do Grupo Recom contam com profissionais capacitados para adequar o parque de impressão de sua empresa às suas reais necessidades. Isso ocorre devido o amplo conhecimento dos produtos, equipamentos e ótimo relacionamento com fornecedores. Unindo esforços, conseguimos atingir uma solução de impressão eficiente, simples e adequada às suas necessidades, com menor custo. Desta maneira o cliente deixa de se ocupar com compras, manutenção, estoque de produtos, atualização dos equipamentos, concentrando assim seus esforços na inteligência de seus negócios.</texto>
+		<texto>Os clientes do Grupo Recom contam com profissionais capacitados para adequar o parque de impressão de sua empresa às suas reais necessidades. Unindo esforços, conseguimos atingir uma solução de impressão eficiente, simples e adequada às suas necessidades, com menor custo. Desta maneira o cliente deixa de se ocupar com compras, manutenção, estoque de produtos, atualização dos equipamentos, concentrando assim seus esforços na inteligência de seus negócios.</texto>
 		<link>locacao</link>
 	</destaque>
 	
@@ -51,7 +51,7 @@
         <linha>produtos</linha>
 		<categoria>InkJet</categoria>
 		<imagem>images/inkjet.png</imagem>
-		<texto>Está é a tecnologia mais comum de impressão da atualidade, sendo ideal para uso doméstico, home-office e pequenos escritórios. Apesar de seu custo de impressão deixar a desejar um pouco, sua qualidade é incontestável. O desempenho desse equipamento tem melhorado cada vez mais e os reflexos disso ficam claros na qualidade de velocidade das impressões, sejam elas coloridas ou monocromáticas. Essa tecnologia é indicada para pequenos volumes e sua versatilidade é uma de suas grandes vantagens. Ela marca diversos tipos de superfícies, mesmo as irregulares, o que permite a essa tecnologia se adaptar de acordo com o mercado. Esse sistema é principalmente indicado para impressões de fotografias, mas se mostra muito eficiente também quando é preciso imprimir em um espectro de superfícies de papel mais amplo, inclusive em transparências de retroprojetor ou em materiais de transferência de imagens para camisetas e canecas, por exemplo. </texto>
+		<texto>Está é a tecnologia mais comum de impressão da atualidade, sendo ideal para uso doméstico, home-office e pequenos escritórios. Apesar de seu custo de impressão deixar a desejar um pouco, sua qualidade é incontestável. O desempenho desse equipamento tem melhorado cada vez mais e os reflexos disso ficam claros na qualidade de velocidade das impressões, sejam elas coloridas ou monocromáticas. Essa tecnologia é indicada para pequenos volumes e sua versatilidade é uma de suas grandes vantagens. Ela marca diversos tipos de superfícies, mesmo as irregulares, o que permite a essa tecnologia se adaptar de acordo com o mercado.  </texto>
 		<link>linhas/13</link>
 	</destaque>
     
@@ -75,7 +75,7 @@
         <linha>produtos</linha>
 		<categoria>Ribbons</categoria>
 		<imagem>images/ribbon.png</imagem>
-		<texto>É a melhor tecnologia para impressão e código de barra. Seu sistema de funcionamento é bem simples: o filme plástico possui uma cera que, quando aquecida, é transferida para a etiqueta. Esse sistema é recomendado para impressão de etiquetas personalizadas e sequenciais, já que não possui falhas durante o processo. Ele é indicado para impressões direcionadas a produtos que não estejam sujeitos a atrito ou contato com produtos químicos, como por exemplo, caixa de sapato e etiquetas de roupa. Também é muito versátil já que há a possibilidade de se encontrar ribbons de diferentes larguras e comprimentos que se adéquam aos modelos de cada impressora. Uma vantagem importante dessa tecnologia é o fato de possuir baixo custo.</texto>
+		<texto>É a melhor tecnologia para impressão e código de barra. Seu sistema de funcionamento é bem simples: o filme plástico possui uma cera que, quando aquecida, é transferida para a etiqueta. Esse sistema é recomendado para impressão de etiquetas personalizadas e sequenciais, já que não possui falhas durante o processo. Ele é indicado para impressões direcionadas a produtos que não estejam sujeitos a atrito ou contato com produtos químicos, como por exemplo, caixa de sapato e etiquetas de roupa. Também é muito versátil já que há a possibilidade de se encontrar ribbons de diferentes larguras e comprimentos que se adéquam aos modelos de cada impressora.</texto>
 		<link>linhas/16</link>
 	</destaque>
     
@@ -83,7 +83,7 @@
         <linha>produtos</linha>
 		<categoria>Etiquetas</categoria>
 		<imagem>images/etiquetas.png</imagem>
-		<texto>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</texto>
+		<texto>Cada vez mais necessária no mundo de hoje, seja para informar, alertar, lacrar ou para garantir, as etiquetas estão cada vez mais presentes nos produtos de hoje e são cada vez mais necessárias. As etiquetas são comumente usadas com impressoras térmicas e de ribbon e impressas em seqüência, elas são amplamente utilizadas para confecção de códigos de barras mas sua finalidade e utilidade é muito mais ampla podendo ser feitas de diversos materiais e tamanhos e serem aplicadas em virtualmente qualquer coisa, desde produtos alimentícios a indústrias químicas, tendo cada uma delas sua finalidade e especialidade.</texto>
 		<link>linhas/17</link>
 	</destaque>
 </destaques>
